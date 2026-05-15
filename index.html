@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="styles.css">
+    <title>BeatLab | Современная музыкальная студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Segoe UI:wght@300;400;600&family=Roboto:wght@100;200;400&display=swap""
+        rel="stylesheet" />
+</head>
+<body>
+<header class="header">
+    <div class="header__container">
+        <a href="#" class="logo">🎧 BEATLAB</a>
+        <button class="nav__toggle" id="menuToggle" aria-label="Меню">☰</button>
+        <nav class="nav" id="mainNav">
+            <ul class="nav__list">
+                <li><a href="#home" class="nav__link">Главная</a></li>
+                <li><a href="#services" class="nav__link">Услуги</a></li>
+                <li><a href="#gallery" class="nav__link">Студия</a></li>
+                <li><a href="#reviews" class="nav__link">Отзывы</a></li>
+                <li><a href="#contacts" class="nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <button class="header__btn">Запись</button>
+    </div>
+</header>
+<main>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__badge">✨ ПРОФЕССИОНАЛЬНАЯ ЗВУКОЗАПИСЬ</div>
+                <h1 class="hero__title">Создай свой звук в <span>BEATLAB</span></h1>
+                <p class="hero__desc">Современная студия с топовым оборудованием, звукорежиссёрами и атмосферой для творчества. Сведение, мастеринг, запись вокала и инструментов.</p>
+                <button class="hero__btn">Забронировать сессию</button>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section__title">Студийные пакеты</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <div class="card__icon">🎤</div>
+                    <h3 class="card__title">Demo-запись</h3>
+                    <p class="card__desc">Запись вокала / инструмента, черновой микс. Идеально для демо и каверов.</p>
+                    <div class="card__price">от 2 500 ₽ / час</div>
+                </article>
+                <article class="card">
+                    <div class="card__icon">🎛️</div>
+                    <h3 class="card__title">Сведение + Мастеринг</h3>
+                    <p class="card__desc">Профессиональная обработка, чистка, баланс и лимитинг под стриминг.</p>
+                    <div class="card__price">от 7 000 ₽ / трек</div>
+                </article>
+                <article class="card">
+                    <div class="card__icon">🎧</div>
+                    <h3 class="card__title">Премиум продакшн</h3>
+                    <p class="card__desc">Аранжировка, запись живых инструментов, вокала, полный цикл.</p>
+                    <div class="card__price">от 15 000 ₽</div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section__title">Интерьер и оборудование</h2>
+            <div class="gallery-grid">
+                <div class="gallery__item"><img src="assets/Studying_pult.jpg" alt="Студийный пульт" class="about-image"></div>
+                <div class="gallery__item"><img src="assets/Microphone_and_headphones.jpg" alt="Микрофон и наушники" class="about-image"></div>
+                <div class="gallery__item"><img src="assets/Synthesizer_keys.jpg" alt="Клавиши синтезатора" class="about-image"></div>
+                <div class="gallery__item"><img src="assets/Vocal_recording.jpg" alt="Звукозапись вокала" class="about-image"></div>
+                <div class="gallery__item"><img src="assets/Guitar_in_studio.jpg" alt="Гитара в студии" class="about-image"></div>
+                <div class="gallery__item"><img src="assets/Musicman_with_audiorecord.jpg" alt="Мюзикмэн с звукозаписью" class="about-image"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h2 class="section__title">Почему выбирают нас</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature__icon">🎚️</div>
+                    <h3>Neve & API консоли</h3>
+                    <p>Аналоговый звук с лучшими предусилителями.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__icon">🎙️</div>
+                    <h3>Коллекция микрофонов</h3>
+                    <p>Neumann, Telefunken, Shure — для любого голоса.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__icon">🏆</div>
+                    <h3>Опытные инженеры</h3>
+                    <p>Резиденты с platinum сертификатами.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__icon">☕</div>
+                    <h3>Уютная лаунж зона</h3>
+                    <p>Комфорт и вдохновение 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="section">
+        <div class="container">
+            <h2 class="section__title">Отзывы музыкантов</h2>
+            <div class="reviews-grid">
+                <div class="review">
+                    <p class="review__text">"Лучшая студия в городе! Записывал EP, ребята помогли выжать максимум из материала. Сведение на высоте."</p>
+                    <p class="review__author">— Александр Г., инди-музыкант</p>
+                </div>
+                <div class="review">
+                    <p class="review__text">"Отличная акустика, современное железо. Отдельное спасибо звукорежиссёру Денису — чуткий подход к деталям."</p>
+                    <p class="review__author">— Екатерина В., вокалистка</p>
+                </div>
+                <div class="review">
+                    <p class="review__text">"Очень атмосферно, профессионально. Ребята знают своё дело, мастеринг треков конкурентоспособен Spotify/Apple."</p>
+                    <p class="review__author">— Дмитрий K., битмейкер</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="section">
+        <div class="container">
+            <h2 class="section__title">Свяжитесь с нами</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 3rem; background: #13161f; border-radius: 2.5rem; padding: 3rem; justify-content: space-between;">
+                <div style="flex:1; min-width: 20rem;">
+                    <h3 style="font-size: 2rem; margin-bottom: 1.5rem;">📞 Контакты</h3>
+                    <p style="font-size: 1.5rem; margin-bottom: 1rem;">+7 (999) 123-45-67</p>
+                    <p style="font-size: 1.5rem; margin-bottom: 1rem;">hello@beatlab.studio</p>
+                    <p style="font-size: 1.5rem;">📍 Москва, ул. Звуковая, 12</p>
+                </div>
+                <div style="flex:2; min-width: 20rem;">
+                    <h3 style="font-size: 2rem; margin-bottom: 1.5rem;">📝 Простая форма связи</h3>
+                    <form style="display: flex; flex-direction: column; gap: 1.2rem;">
+                        <input type="text" placeholder="Ваше имя" style="background: #0a0c12; border:1px solid #2d2f3a; padding: 1rem; border-radius: 1.2rem; color: white; font-size: 1.4rem;">
+                        <input type="email" placeholder="Email" style="background: #0a0c12; border:1px solid #2d2f3a; padding: 1rem; border-radius: 1.2rem; color: white; font-size: 1.4rem;">
+                        <textarea rows="3" placeholder="Ваш вопрос или пожелание" style="background: #0a0c12; border:1px solid #2d2f3a; padding: 1rem; border-radius: 1.2rem; color: white; font-size: 1.4rem;"></textarea>
+                        <button type="button" style="background:#7c3aed; width: fit-content; padding: 0.8rem 2rem; border-radius: 3rem; font-weight: bold; color:white; border: none; cursor: pointer;">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__col">
+            <div class="footer__logo">🎵 BEATLAB</div>
+            <p class="footer__text">Профессиональная аудиостудия полного цикла.<br>Звук, который вдохновляет.</p>
+        </div>
+        <div class="footer__col">
+            <h4 class="footer__title">Навигация</h4>
+            <ul class="footer__links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+            </ul>
+        </div>
+        <div class="footer__col">
+            <h4 class="footer__title">Соцсети</h4>
+            <div class="socials">
+                <a href="#" aria-label="instagram">📷 IG</a>
+                <a href="#" aria-label="telegram">✈️ TG</a>
+                <a href="#" aria-label="vk">🎵 VK</a>
+                <a href="#" aria-label="youtube">▶️ YT</a>
+            </div>
+            <p class="footer__text" style="margin-top: 1rem;">Работаем ежедневно 10:00 – 22:00</p>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <p>© 2025 BEATLAB — музыкальная студия. Все права защищены.</p>
+    </div>
+</footer>
+</body>
+</html>
